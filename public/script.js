@@ -2,7 +2,7 @@ const socket = io('/');
 const videoGrid = document.getElementById('video-grid');
 const myPeer = new Peer(undefined, {
   secure: true,
-  host: 'peerjs-server.herokuapp.com/',
+  host: 'dexters-vid-app.herokuapp.com/',
   port: '443',
 });
 const myVideo = document.createElement('video');
